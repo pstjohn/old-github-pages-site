@@ -1,0 +1,49 @@
+section table {
+    border: none;
+}
+
+td {
+    padding-left: 20px;
+}
+
+div .nav_wrap {
+    padding-left: 20px;
+    padding-top: 20px;
+	float: left;
+	width: 250px;
+	min-width: 250px;
+    float: left;
+}
+
+div .main_wrap {
+    display: block;
+    float: left;
+}
+
+nav li {
+    list-style: none;
+}
+
+section address {
+    margin-left: 15px;
+}
+
+h2 a {
+    color:inherit;
+    text-decoration: none;
+}
+
+#footer {
+  background : #212121;
+  text-align: center;  
+  color: white;
+  font-size: 0.8em;
+  padding: 10px;
+  line-height: 16px;
+  clear: both;
+}
+
+#footer a {
+    color: white;
+    text-decoration: underline;
+}

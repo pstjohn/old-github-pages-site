@@ -20,7 +20,7 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
+menu, output, ruby, section, summary,
 time, mark, audio, video {
   margin: 0;
   padding: 0;
@@ -31,7 +31,7 @@ time, mark, audio, video {
 
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+footer, header, hgroup, menu, section {
   display: block;
 }
 
@@ -97,10 +97,6 @@ p {
   margin: 10px 0 15px 0;
 }
 
-footer p {
-  color: #f2f2f2;
-}
-
 a {
   text-decoration: none;
   color: #007edf;
@@ -119,11 +115,6 @@ a {
 }
 
 a:hover, a:focus {text-decoration: underline;}
-
-footer a {
-  color: #F2F2F2;
-  text-decoration: underline;
-}
 
 em {
   font-style: italic;
@@ -234,7 +225,7 @@ hr {
 }
 
 table {
-  border: 1px solid #373737;
+  /* border: 1px solid #373737; */
   margin-bottom: 20px;
   text-align: left;
  }
@@ -248,7 +239,7 @@ th {
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+  /* border: 1px solid #373737; */
  }
 
 form {
@@ -295,7 +286,7 @@ Full-Width Styles
   background: linear-gradient(top, #373737, #212121);
 }
 
-#header_wrap .inner {
+#header_wrap header {
   padding: 50px 10px 30px 10px;
 }
 
@@ -358,16 +349,14 @@ Full-Width Styles
   background: #f2f2f2;
   border-top: 1px solid #111;
   border-bottom: 1px solid #111;
+  float: left;
+  width: 100%;
+  min-height: 500px;
 }
 
 #main_content {
-  padding-top: 40px;
+  padding-top: 20px;
 }
-
-#footer_wrap {
-  background: #212121;
-}
-
 
 
 /*******************************************************************************
