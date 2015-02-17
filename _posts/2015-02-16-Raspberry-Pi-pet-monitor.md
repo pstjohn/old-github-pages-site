@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Second Test post
+title: Raspberry Pi pet monitor
 ---
 
 I'll start by admitting that this is definitely one of those cases in which
