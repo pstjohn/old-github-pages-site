@@ -80,7 +80,7 @@ took too long.
 
 Once the raspberry pi was all set up, crontabs at the ready, I mounted it inside a cardboard box and positioned it next door to _Le Bistro_.
 
-{% include image.html url="images/IMG_1639.jpg" description="Stealthy" %}
+{% include image.html url="images/IMG_1639_small.jpg" description="Stealthy" %}
 
 Here's a still image from the point of view of the camera:
 
