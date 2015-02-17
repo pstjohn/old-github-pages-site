@@ -9,7 +9,7 @@ title: Home
 
         <header>
             <h2><a href="{{site.baseurl}}{{post.url}}">{{ post.title }}</a></h2>
-            <span class="date"><i class="fa fa-fw fa-clock-o"></i><time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></span><br/>
+            <span class="date"><i class="fa fa-fw fa-clock-o"></i> <time datetime="{{post.date|date:"%F"}}">{{post.date|date:"%b %d, %Y"}}</time></span><br/>
             <span class="author"><i class="fa fa-fw fa-user"></i> {% if post.author %}{{post.author}}{% else %}{{site.author}}{% endif%}</span>
         </header>
 	
