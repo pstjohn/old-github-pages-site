@@ -47,3 +47,25 @@ h2 a {
     color: white;
     text-decoration: underline;
 }
+
+/* .thumbnail.with-caption img { */
+/*     border: None */
+/* } */
+
+.thumbnail.with-caption {
+    width: 100%;
+    display: inline-block;
+    background: #f5f5f5;
+}
+
+.thumbnail.with-caption p {
+    margin: 0;
+    padding-top: 0.5em;
+    text-align: center;
+    font-weight: bold;
+}
+
+.thumbnail.with-caption small:before {
+    content: '\2014 \00A0';
+}
+
