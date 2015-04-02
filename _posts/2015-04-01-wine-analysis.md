@@ -12,6 +12,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
 import seaborn as sns
+sns.set_context("notebook")
+sns.set_style("darkgrid")
 ```
 
 The databases are stored as CSV files, which I generated after much bash-scripted from the original excel document. You can download the files here: [wines.csv]({{ site.url }}/notebooks/wines.csv) and [scores.csv]({{ site.url }}/notebooks/scores.csv)
@@ -205,5 +207,55 @@ In a perfect world, the order in which we taste the wines would be completely ra
 sns.boxplot(vals=scores.Score, groupby=scores.order)
 ```
 ![png]({{ site.url }}/assets/images/2015-04-01-wine-analysis/2015-04-01-wine-analysis_10_1.png)
+
+## Number of tastings per person
+Some of us have been to wine club more frequently (or longer) than others, so its useful to visualize the number of datapoints we have per person.
+
+```python
+tastings = scores.groupby('Name').count().Score.copy()
+tastings.sort()
+plt.figure(figsize=(10,6))
+ax = sns.barplot(x = np.arange(len(tastings)), y = tastings.values[::-1])
+tl = ax.set_xticklabels(tastings.index[::-1], rotation=90)
+```
+![png]({{ site.url }}/assets/images/2015-04-01-wine-analysis/2015-04-01-wine-analysis_12_0.png)
+
+## Average score per person
+We don't want anyone to have a higher overall weight on a wines averaged score, so we'll next look on how well we each do on sticking to a consistent scoring basis. (Note, ratings from season 1 have already been re-normalized to 0-21). We're also not too interested in people who have only shown up once or twice ("Are you guys playing some sort of game?"), so we'll make the cuttoff at Zac and above (sorry Jeremy)
+
+```python
+best_tasters = tastings[tastings > tastings['Zac']].index.values
+pruned_scores = scores[scores.Name.isin(best_tasters)]
+order = pruned_scores.groupby('Name').median().Score.argsort()
+ax = sns.boxplot(vals=pruned_scores.Score, groupby=pruned_scores.Name, order=order.index[order.values])
+tl = plt.setp(ax.get_xticklabels(), rotation=90)
+```
+![png]({{ site.url }}/assets/images/2015-04-01-wine-analysis/2015-04-01-wine-analysis_14_0.png)
+
+Easy there Luke / Kaylan, we all like wine, but not _that_ much :)
+I'm going to use a [robust z-score](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2789971/) to standardize our scores by taster.
+
+```python
+def robust_z(x):
+    x = x.drop(['Name'], axis=1)
+    dev = x - x.median()
+    mad = np.abs(dev).median()
+    return dev / mad
+
+pruned_scores['scaled_score'] = pruned_scores.loc[:,['Name', 'Score']].groupby('Name').apply(robust_z)
+```
+
+
+```python
+pruned_scores.scaled_score.hist(bins=30)
+```
+![png]({{ site.url }}/assets/images/2015-04-01-wine-analysis/2015-04-01-wine-analysis_17_1.png)
+
+## Is there a pareto front of $$f(taste, price)$$?
+This requires us to find the average score of each wine
+
+```python
+
+```
 
 [Download this notebook]({{ site.url }}/notebooks/2015-04-01-wine-analysis.ipynb)

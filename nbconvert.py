@@ -9,6 +9,9 @@ import IPython.nbconvert as nbconvert
 start_py_high = '\n```python\n'
 end_py_high = '```\n'
 
+start_out_high = '\n```\n'
+end_out_high = '```\n'
+
 def add_newline(this_str):
     """ 
     Some kinda boilerplate
@@ -90,7 +93,10 @@ class CustomMarkdownExporter(nbconvert.MarkdownExporter):
                         markdown += output['html']
                     
                     # Add a tab in front, so that it gets rendered as 'tt':
-                    else: markdown += '\t' + output['text']
+                    else: 
+                        markdown += start_out_high
+                        markdown += add_newline(output['text'])
+                        markdown += end_out_high
 
             elif output['output_type'] == 'display_data':
                 markdown += add_newline(
