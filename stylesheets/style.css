@@ -69,3 +69,7 @@ h2 a {
     content: '\2014 \00A0';
 }
 
+
+section article header {
+    margin-bottom: 10px;
+}

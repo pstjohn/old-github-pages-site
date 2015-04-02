@@ -1,0 +1,285 @@
+,order,Wine Name,Region,Year,Price,Purchaser,season,night
+0,1,Sylvester,"Paso Robles, CA",2007,7,Ellie,1,1
+1,2,Renwood Old Vine,"Shenandoah Valley, VA",2008,14,Erin K,1,1
+2,3,Cline Ancient Vines,"Sonoma, CA",2010,15,Peter,1,1
+3,4,Peachy Canyon Incredible Red,"Paso Robles, CA",2008,9,Nate Y,1,1
+4,1,SB Landing,,2009,4,Control (Jack),1,2
+5,2,Wente,Livermore,2010,15,Jack,1,2
+6,3,BV Coastal Estates,,2010,7,Erin,1,2
+7,4,Charles Shaw (2 buck!),,2012,2,Control (Nate K),1,2
+8,5,Wente,,2010,15,Chandra,1,2
+9,6,Red-dyed 2 Buck Chuck,,2012,2,"April Fools, Bitches",1,2
+10,7,Firestone Reserve Chardonnay,Santa Ynez,2010,25,Nate K,1,2
+11,1,La Cetto,Baja,2009,10, Neg control (Nate/Ellie),1,3
+12,2,Shannon Ridge Ranch Collection,Lake County CA,2009,20,Ellie,1,3
+13,3,Bogle,"Clarksburg, CA",2009,10,Evan,1,3
+14,4,Fleur,North Coast CA,2008,15,Chelsea,1,3
+15,5,Peachy Canyon,Paso Robles,2009,25,NateY,1,3
+16,1,Found Object,"Culchaqua Valley, Argentina",2010,7,NateK/Ellie,1,4
+17,2,Charles Shaw (2 buck chuck),Napa & Sonoma,2010,2,Nate K (non-entry),1,4
+18,3,Sea Ridge,Napa & Sonoma,2010,2,Jack Love (non-entry),1,4
+19,4,6th Sense,Lodi,2010,13,Sean/Greg,1,4
+20,5,Curtis Ambassador's Vineyard,Santa Ynez,2007,25,Erin/Evan,1,4
+21,6,Kendall Jackson Vintner's Reserve,Santa Barbara,2009,14,Peter,1,4
+22,7,Tobin James Rock 'n' Roll,Paso Robles,2008,14,Stacey/Dave,1,4
+23,8,Robert Mondavi,,,10,Jack ,1,4
+24,9,Trader Joe's Coastal Syrah,Cali Central Coast,2010,4,Nate K (non-entry),1,4
+25,1,Gnarly Head,"Manteca, CA",2010,9,,1,5
+26,2,LAETITIA,Arroyo Grande,2010,22,Peter/Zac,1,5
+27,3,Cloudline,Oregon,2009,12,,1,5
+28,4,Francis Coppola,"Monterey, CA",2009,17,Sean/Greg,1,5
+29,5,Turning Leaf,CA,2011,4,Davey/Stacey,1,5
+30,6,Black Mountain,Haro Hills,2011,6,Nate (non-entry),1,5
+31,7,Blue Fin,CA,2011,4,Nate (non-entry),1,5
+32,8,Frenchhouse,South France,2009,8,Nate/Ellie,1,5
+33,1,Queen of Hearts,Santa Barbara,2007,12,Zac/Peter,1,6
+34,2,Crooked Path,Paso Robles,2009,34,Sean/Greg,1,6
+35,3,Fetzer Valley Oaks,California,2009,6,Erin/Evan,1,6
+36,4,Maddalena,Paso Robles,2007,12,NateK/Ellie,1,6
+37,5,Turning Leaf,California,2010,6,Stacy/Davey,1,6
+38,6,Tobin James,Paso Robles,2009,12,Jack/NateY,1,6
+39,7,2 Buck Chuck,Californa,2010,2,Nate K (non-entry),1,6
+40,1,Blair Fox,Santa Barbara,2009,27,Stacy/Davey,1,7
+41,2,Curtis,Santa Ynez,2010,20,Nate/Ellie,1,7
+42,3,Pepperwood Grove,California,2007,8,Evan/Erin,1,7
+43,4,Pine Ridge 80% Chenin Blanc 20% Viognier BLEND,,2011,12,Sean/Greg/Robert,1,7
+44,5,Cline,North Coast,2011,8,Peter/Zac,1,7
+45,1,Gina Italian Pink,Piedmont,,9,,1,8
+46,2,Rusack,SB,2011,12,,1,8
+47,3,Foley,Lompoc,2010,14,,1,8
+48,4,Stella Rosa,,1917,10,,1,8
+49,1,Wild Horse,Paso Robles,2009,12,,1,9
+50,2,Black Mountain,California,2010,6,,1,9
+51,3,Two Vines,Washington State,2009,7,,1,9
+52,4,Redwood Creek,Cali,2010,2,,1,9
+53,5,Little Black Dress,Cali,2010,7,,1,9
+54,6,Fontana D'Italia,Siciliy,2008,10,,1,9
+55,7,Tobin James,Paso Robles,2008,12,Nate/Ellie?,1,9
+56,8,Charles Shaw,Cali,2010,2,non entry,1,9
+57,9,Purple Cowboy,Paso Robles,2009,13,,1,9
+58,1,Trapiche,Argentina,2011,649,,1,10
+59,2,Layer Cake,Argentina,2009,17,,1,10
+60,3,Panilonco,Chile,2011,6,,1,10
+61,4,Sensual,Mendoza,2009,6,,1,10
+62,5,Alamos,Argentina,2011,9,,1,10
+63,6,Espuela de Gancho,Andes,2010,9,,1,10
+64,7,Filus,Argentina,2008,12,Nate/Ellie,1,10
+65,1,Da Vinci,Chianti,2009,13,,1,11
+66,2,Castello D'Albola,Chianti,2008,13,,1,11
+67,3,Ruffino Riserva Ducale Oro,Chianti,2006,32,,1,11
+68,4,Ruffino Chianti Superiore,Chianti,2009,7,,1,11
+69,5,Whole Foods 365 Chianti,Chianti,2008,9,,1,11
+70,6,Fontana D'Italia,Chianti,2007,13,,1,11
+71,7,Grifone,Chianti,2008,5,,1,11
+72,1,Lagranja,Spain,2010,4,,1,12
+73,2,Origin,Spain,2009,8,,1,12
+74,3,Cala Blanca,Spain,2010,7,,1,12
+75,4,Origin,Spain,2009,8,,1,12
+76,5,Campo Viejo Riserva,Spain,2006,12,,1,12
+77,6,Cala Blanca,Spain,2010,7,,1,12
+78,7,Red Guitar - Tempranillo Garnacha,Spain,2009,8,,1,12
+79,8,The Tapas Wine Collection,Spain,2008,10,,1,12
+80,1,Beujolais,Burgundy,2010,10,,1,13
+81,2,Blason,Burgundy,2010,7,,1,13
+82,3,Furile (?) Chandesais Pinot,Burgundy,2009,15,,1,13
+83,4,Louis Jadot,Burgundy,2009,14,,1,13
+84,5,Beaujolais,Burgundy,2010,16,,1,13
+85,6,Cote de Nuits-Villages,Burgundy,2009,21,,1,13
+86,7,Carlo Rossi,Burgundy,2010,,,1,13
+87,1,Josh,Sonoma,2010,7,,1,14
+88,2,Mouton Cadet,Bordeaux,2010,12,,1,14
+89,3,Seven Oaks J. Lohr,Paso Robles,2010,11,Ellie/Nate,1,14
+90,4,Layer Cake,Cali,2010,,,1,14
+91,5,Snapping Turtle,Cali,2010,6,,1,14
+92,6,Bonterra,Mendocino/Lake County,2010,12,,1,14
+93,7,Loius M Martini,Sonoma,2009,11,,1,14
+94,8,Liberte,Paso Robles,2010,10,,1,14
+95,1,Cambria,Santa Maria,2009,12,,2,1
+96,2,Jacob's Creek,"S. Australia, Barossa",2009,9,,2,1
+97,3,6th Sense,"Lodi, CA",2010,14,,2,1
+98,4,2 Buck Chuck,CA,2011,2,CONTROL,2,1
+99,5,Curtis Ambassador's Vineyard,Santa Ynez,2007,25,Nate K/Peter,2,1
+100,1,Clos du Val,Napa,2009,28,Jack/NateY,2,2
+101,2,Rex Goliath,Chile,,5,,2,2
+102,3,Montes Alpha,Chile,2008,16,,2,2
+103,4,Louis M. Martini,Sonoma,2010,14,,2,2
+104,5,7 Oaks J. Lohr,Paso Robles,2010,11,PREVIOUS WINNER,2,2
+105,6,Prospect 49,Cali,2010,11,,2,2
+106,1,Black Mountain,"Haro Hills, CA",2011,6,Martijn,2,3
+107,2,Turning Leaf,Cali,2010,6,PREVIOUS WINNER,2,3
+108,3,Artesa,Carneros,2009,18,NateY/Jack,2,3
+109,4,Edna Valley,SLO,2010,20,,2,3
+110,5,Redtree,Cali,2011,9,,2,3
+111,6,Inocencio,SB,2009,18,,2,3
+112,7,Estancia,Sta. Lucia Highlands,2009,24,Sean/Greg,2,3
+113,1,Zaca Mesa Z cuvee,SB,2008,14,NateY/Jack,2,4
+114,2,Buscado,Spain,2010,12,Zac/Martijn,2,4
+115,3,Beckman,Santa Ynez,2010,28,Erin/Evan,2,4
+116,4,tienen DUENDE,Spain,2009,10,Davey/Stacy?,2,4
+117,5,Tapena,Spain,2010,7,Sean/Greg,2,4
+118,6,Las Rocas,Spain,2008,11,NateK/Peter,2,4
+119,1,Norton,Mendoza,2011,8,,2,5
+120,2,Ampakama,San Juan Argentina,2011,8,,2,5
+121,3,Layer Cake,Mendoza,2011,12,,2,5
+122,4,Chill Out,Chile,,5,,2,5
+123,5,Bodega Elena de Mendoza,Mendoza,2010,9,Davey,2,5
+124,6,Catena,Mendoza,2010,21,,2,5
+125,7,Pascual Toso,Mendoza,2009,11,Peter,2,5
+126,1,Warre's Warrior Reserve,,,13,Nate K,2,6
+127,2,Sheffield Tawny,,,7,,2,6
+128,3,Peachy Canyon Zin Port,,,20,,2,6
+129,4,Destination Porto Special Reserve,,,18,,2,6
+130,5,Porto Morgado,,,8,Sean/Greg?,2,6
+131,6,W&J Graham's Tawny,,10,35,Martijn,2,6
+132,1,Crooked Path,Paso Robles,2011,20,Peter,2,7
+133,2,Trader Joe's Coastal Zin,CA,2011,5,,2,7
+134,3,Dancing Bull,CA,2011,8,,2,7
+135,4,Peachy Canyon Incredible Red,Paso Robles,2010,0,Erin/Evan LATE ENTRY,2,7
+136,1,Domaine Le Mieux,Paso Robles,2009,16,NateK,2,8
+137,2,Honey Moon,Cali,2011,5,Davey,2,8
+138,3,No. 15,Santa Ynez (Rideau),2011,25,NateY,2,8
+139,4,Roblar,Santa Ynez,2011,17,Sean,2,8
+140,5,Cline,,2012,12,CONTROL,2,8
+141,1,Wente Morning Fog,Livermore,2010,14,CONTROL,2,9
+142,2,Trellis,Sonoma,2009,5,Erin,2,9
+143,3,Longhand,Sonoma,2011,25,Greg,2,9
+144,4,Flip Flop,Livermore,2011,5,,2,9
+145,5,Cupcake,Central Coast,2011,,Jack,2,9
+146,6,Lindeman's Bin 65,Austiralia,2012,6,Martijn,2,9
+147,7,Laetitia,Arroyo Grande,2012,15,,2,9
+148,1,Le Corti,Chianti,2008,8,Sean,2,10
+149,2,Castello della Paneretta,Chianti,2008,14,Martijn,2,10
+150,3,La Maia Lina,Chianti,2008,16,Nicole,2,10
+151,4,Santa Margherita,Chianti,2006,20,Jack,2,10
+152,5,Tribunal Red Wine,North Coast,2011,10,Chelsea - NOT A CHIANTI,2,10
+153,6,Stolpman Sangiovese,Santa Ynez,2009,20,NateK,2,10
+154,7,Il Grigio da San Felice Riserva,Chianti,2001,24,Erin/Evan,2,10
+155,8,365 Chianti,Italy,2009,14,CONTROL,2,10
+156,1,Buccaneer,CA,2010,10,Peter,2,11
+157,2,Line 39,Central Coast,2011,10,Martijn,2,11
+158,3,Angel's Secret,High Valley,2010,13,Erin,2,11
+159,4,Earthquake,Lodi,2009,25,Stacy,2,11
+160,5,Bogle,CA,2011,10,NateY,2,11
+161,1,Canals & Nubiola,Spain,,12,Erin/Evan,2,12
+162,2,Piper Sonoma,Sonoma,,14,sean/greg,2,12
+163,3,Presto Proseco D.O.C.,"Treviso, Italy",,12,NateK,2,12
+164,4,Martini & Rossi,Asti,,15,Jack,2,12
+165,5,Middle Sister Bubbly Sweet White,-,,10,Martijn,2,12
+166,6,The Headsnapper,"Italy, Proseco D.O.C.",,20,Nicole,2,12
+167,1,Buttonwood,Santa Ynez,2009,15,Jack/Martijn,3,1
+168,2,The Seeker,"Central Valley, Chile",2011,9,Jereemy/Katie,3,1
+169,3,Hess Select,N. Coast,2010,14,Grace/Nicole,3,1
+170,4,Lincourt,Santa Ynez,2010,30,Nate/Jessica,3,1
+171,5,Clayhouse,Paso Robles,2012,8,Katie (w/ Peter),3,1
+172,6,Velvet Moon,CA,2012,5,Sean/Peter,3,1
+173,7,7 Oaks J. Lohr,Paso Robles,2011,12,CONTROL,3,1
+174,8,Black Mountain Fat Cat,CA,2012,6,Greg/Kate,3,1
+175,1,Curtis Heritage Cuvee,Santa Ynez,2010,12,Sean/Greg,3,2
+176,2,Arrogant Frog,France,2011,10,Nate/Jessica,3,2
+177,3,Z Cuvee,Santa Ynez,2009,20,Grace/Nicole,3,2
+178,4,Epoch Estate Blend,Paso Robles,2010,,,3,2
+179,5,Cru du Rhone Vacqueyras,Rhone,2011,12,Davey,3,2
+180,6,Anglim,Central Coast,2011,15,,3,2
+181,1,Quarles Harris,Portugal,10,16,Jessica/Nate,3,3
+182,2,W+J Graham's Fine Tawny,,,20,Grace/Nicole,3,3
+183,3,Warre's Warrior Reserve,,,13,CONTROL,3,3
+184,4,Robert Hall Vintage,Paso Robles,2007,30,Sean,3,3
+185,5,Ficklin Old Vine Tinta Port,Madera,,15,Davey/Martijn,3,3
+186,6,Warre's Otima 10,Portugal,,19,Erin/Evan,3,3
+187,1,Rancho Sisquoc,Santa Maria,2011,18,Nate/Jessica,3,4
+188,2,Powderkeg,CA,2009,10,Sean/Greg,3,4
+189,3,Jacob's Creek,Australia,2010,5,CONTROL,3,4
+190,4,Fess Parker,Santa Ynez,2003,50,Evan/Erin,3,4
+191,5,Inocencio,,2007,15,Davey/Martijn,3,4
+192,6,Firestone,Santa Ynez,2011,13,Grace/Nicole,3,4
+193,7,Beckman,Santa Ynez,2011,17,Peter/Katie,3,4
+194,8,Ravenswood,CA,2011,7,NateY/Jack,3,4
+195,9,Query,Central Coast,2011,9,Matt/Allie,3,4
+196,1,Silver,Monterey,2011,21,Davey/Martijn,3,5
+197,2,Naked,Sonoma,2011,15,Matt/Allie,3,5
+198,3,Chateau St. John,Sonoma,2011,10,Peter,3,5
+199,4,Silver,Monterey,2011,21,Erin/Evan,3,5
+200,5,Lincourt,Santa Rita Hills,2011,18,Nate/Jessica,3,5
+201,6,Oreana,Santa Barbara,2012,10,Jack/NateY,3,5
+202,7,Genesis,Columbia Valley,2008,7,Sean,3,5
+203,8,Estancia,Monterey,2011,19,Grace,3,5
+204,1,Layer Cake,Mendoza,2012,13,Nate/Jessica,3,6
+205,2,Diseno,Mendoza,2012,8,Peter/Katie,3,6
+206,3,Abras,"Valley de cafayete; Salta, Argentina",2012,30,Greg/Kate,3,6
+207,4,Ruta 22,Patagonia,2012,10,NateY/Jack,3,6
+208,5,King Rabbit,France,2012,10,Matt/Allie,3,6
+209,6,Gascon,Mendoza,2011,14,NateE/Grace,3,6
+210,7,St. Lucas,Mendoza,2010,14,Erin/Evan,3,6
+211,8,Catena,Argentina,2010,19,CONTROL,3,6
+212,9,Filus,Uco Valley; Mendoza,2012,10,Davey/Martijn,3,6
+213,1,Beringer,North Coast,2007,8,PSJ/Katie,3,7
+214,2,Lezongars,,2000,30,Grace/Davey,3,7
+215,3,Chateau Malbec,,2009,15,Nate/Jessica,3,7
+216,4,Sterling Meritage,Central Coast,2011,12,Martijn/Davey,3,7
+217,5,Chateau Bonnet,,2005,20,Erin/Evan,3,7
+218,6,Monton Cadet,,2012,10,,3,7
+219,1,Handcraft,Manteca,2012,10,Davey/Grace,3,8
+220,2,Criss Cross,"Clarksburg, CA",2012,10,Sean/NE,3,8
+221,3,Rideau,Santa Ynez,2010,35,NY/Jack,3,8
+222,4,Parducci Small Lot Blend,Mendocino,2010,14,Matt/Allie,3,8
+223,5,Maggio,Lodi,2011,17,Nate K,3,8
+224,6,Bogle,"Clarksburg, CA",,9,Erin/Evan,3,8
+225,7,Bogle,"Clarksburg, CA",2012,10,NE,3,8
+226,1,Echelon,,2011,12,Grace/Davey,3,9
+227,2,Buena Vista Vinicultural Society,Sonoma,2010,18,Evan/Erin,3,9
+228,3,Roblar,Los Olivos,2011,18,Sean,3,9
+229,4,Estancia,Monterey,2012,8,CONTROL,3,9
+230,5,Rodney Strong,Sonoma,2012,19,Jack/NY,3,9
+231,6,Laetitia Estate,Arroyo Grande,2012,35,Matt/Allie,3,9
+232,7,Black Mountain,CA,2012,7,Luke/Kaylan,3,9
+233,8,Au Bon Climat,Santa Barbara,2012,20,NK,3,9
+234,1,SinZin,Alexander Valley,2010,19,Grace/Davey,3,10
+235,2,Vintjs,Dry Creek Valley,2012,8,Kaylan/Luke,3,10
+236,3,Murphy-Goode Snake Eyes,Sonoma,2006,38,Becca,3,10
+237,4,EOS,Paso Robles,2009,8,NK,3,10
+238,5,Frank Family,Napa,2009,30,Peter/Katie,3,10
+239,6,Peachy Canyon,Paso Robles,2011,10,CONTROL,3,10
+240,7,Cigar Zin,Healdsburg,2011,20,Erin/Evan,3,10
+241,8,Ravenswood,Sonoma,2011,12,Jack/NY,3,10
+242,1,Sunstone,SB County,2012,32,Luke/Kaylan,3,11
+243,2,Ballatore Muscato Rose,CA,,10,,3,11
+244,3,Adobe Pink,Paso Robles,2012,16,,3,11
+245,4,Blair Fox Haylee's Rose,Santa Ynez,2013,16,,3,11
+246,5,Deep Sea,Central Coast,2012,16,,3,11
+247,6,Rosatello,Italy,,16,,3,11
+248,1,Robert Hall,Paso Robles,2010,16,Grace/Davey,3,12
+249,2,Honey Moon,CA,2013,6,Kaylan/Luke,3,12
+250,3,Zaca Mesa,SB County,2010,20,Evan/Erin,3,12
+251,4,Tangent,Edna Valley,2012,12,Peter/Katie,3,12
+252,5,Blair Fox,SB County,2013,29,NateK,3,12
+253,6,Jaffurs,SB County,2011,20,Jack/NateY,3,12
+254,7,Oxford Landing,S. Australia,2013,8,Matt/Allie,3,12
+255,1,Clos Pegase,Napa,2010,14,Sean,3,13
+256,2,Bogle,CA,,9,NateY/Jack,3,13
+257,3,Beringer,CA,2012,8,Grace/Davey,3,13
+258,4,Wente Sandstone,Livermore,2011,11,NateK,3,13
+259,5,San Clemente,Napa,2010,14,Belinda,3,13
+260,6,Wild Horse,Central Coast,2012,12,Control,3,13
+261,7,Ryder Estate,Monterery,,13,Matt/Allie,3,13
+262,1,Santa Margherita Riserva,,2009,17,,3,14
+263,2,Gabbiano,Chianti,2011,10,Matt/Allie,3,14
+264,3,Lamole Lamole,Raccolto,2011,20,NateK/NateE,3,14
+265,4,Castello D'Albola,Chianti,2009,24,Peter/Katie,3,14
+266,5,Nipozzano Chianti Rufina,,2010,,,3,14
+267,6,Basilica Cafaggio Single Estate,Chianti,2010,10,Grace/Davey,3,14
+268,7,Incanta Riserva,,2011,10,Luke/Kaylan,3,14
+269,1,Gina Proseco Extra Dry,,,9,Peter/Katie @ 5 cent wine,3,15
+270,2,Presto Proseco D.O.C.,,,12,Control,3,15
+271,3,Mumm Napa Brut Prestige,Napa,,17,NateK,3,15
+272,4,Schramsberg Cremant Demi-Sec,,,35,Matt/Allie,3,15
+273,5,Tobin James Dream Weaver,Paso Robles,,12,Erin/Evan,3,15
+274,6,Mumm Napa Cuvee M,Napa,,18,Jack/NateY,3,15
+275,7,Barefoot Extra Dry Champagne,,,8,Grace/Davey,3,15
+276,1,Force of Nature,,,30,Luke/Kaylan,3,16
+277,2,Hermanos Lurton,Toro,2012,12,Grace/Davey,3,16
+278,3,Muruve,Roble,2011,12,Peter,3,16
+279,4,Albardiales,Spain,2013,11,Matt/Allie,3,16
+280,5,Red Guitar Old Vine Tempranillo-Grenache (52%/48%),Navara,2011,,NateY/Jack,3,16
+281,6,Tolosa Seasonal Selection,Paso Robles,2012,20,Erin/Evan,3,16
+282,7,Hazana Tradicion Rioja,,2011,13,NateE,3,16
+283,8,Milflores Rioja,"Laguardia, Espana",,8,NateK,3,16
