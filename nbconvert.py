@@ -2,6 +2,7 @@
 import os
 import os.path as op
 import time
+import re
 
 import IPython.nbformat.current as nbformat
 import IPython.nbconvert as nbconvert
@@ -88,8 +89,8 @@ class CustomMarkdownExporter(nbconvert.MarkdownExporter):
                         output['text'].startswith('<matplotlib')):
 
                     if output.has_key('html'):
-                        output['html'] = output['html'].replace(
-                            'class="dataframe"', 'class="table-condensed table-striped"')
+                        output['html'] = re.sub(
+                            'class=".*"', 'class="table-condensed table-striped"', output['html'])
                         markdown += output['html']
                     
                     # Add a tab in front, so that it gets rendered as 'tt':
