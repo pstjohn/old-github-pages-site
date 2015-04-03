@@ -1,0 +1,43 @@
+season,night,Date,Varietal,numwines
+1,1,27-Mar-2012,Zinfandel,4
+1,2,1-Apr-2012,Chardonnay,7
+1,3,9-Apr-2012,Petit Sirah,5
+1,4,16-Apr-2012,Syrah,9
+1,5,23-Apr-2012,Pinot Noir,8
+1,6,7-May-2012,Cabernet Sauvignon,7
+1,7,14-May-2012,Viognier,5
+1,8,21-May-2012,Rose,4
+1,9,28-May-2012,Merlot,9
+1,10,4-Jun-2012,Malbec,7
+1,11,18-Jun-2012,Chianti,7
+1,12,25-Jun-2012,Tempranillo,8
+1,13,9-Jul-2012,Burgundy,7
+1,14,16-Jul-2012,Cabernet Sauvignon,8
+2,1,10-Sep-2012,Syrah,5
+2,2,15-Oct-2012,Cabernet Sauvignon,6
+2,3,19-Nov-2012,Pinot Noir,7
+2,4,17-Dec-2012,Grenache,6
+2,5,14-Jan-2013,Malbec,7
+2,6,28-Mar-2013,Port,6
+2,7,22-Apr-2013,Zinfandel,4
+2,8,20-May-2013,Viognier,5
+2,9,17-Jun-2013,Chardonnay,7
+2,10,22-Jul-2013,Chianti,8
+2,11,12-Aug-2013,Petite Sirah,5
+2,12,9-Sep-2013,Champagne,6
+3,1,21-Oct-2013,Cabernet,8
+3,2,25-Nov-2013,GSM,6
+3,3,16-Dec-2013,Port,6
+3,4,20-Jan-2013,Syrah,9
+3,5,24-Feb-2013,Chardonnay,8
+3,6,17-Mar-2014,Malbec,9
+3,7,14-Apr-2014,Bordeaux,6
+3,8,19-May-2014,Petit Sirah,7
+3,9,16-Jun-2014,Pinot Noir,8
+3,10,21-Jul-2014,Zinfandel,8
+3,11,17-Aug-2014,Rose,6
+3,12,29-Sep-2014,Viognier,7
+3,13,24-Oct-2014, Merlot,7
+3,14,24-Nov-2014,Chianti,7
+3,15,1-Jan-2015,Sparkling White,7
+3,16,2-Mar-2015,Tempranillo,8
