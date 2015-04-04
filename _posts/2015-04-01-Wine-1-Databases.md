@@ -1,6 +1,6 @@
 ---
 layout: post 
-title:  "Wine Club Data Analysis!" 
+title:  "Wine Club Data Analysis - Part 1: Databases" 
 date:  2015-04-01 
 comments: true
 ---
@@ -261,15 +261,6 @@ nights.head()
   </tbody>
 </table>
 </div>
-Average score by tasting order
-==============
-In a perfect world, the order in which we taste the wines would be completely random, and we wouldn't expect any variation based on position tasted. This looks like its more or less the case, but position 6 does seem to have an advantage
-
-```python
-sns.boxplot(vals=scores.Score, groupby=scores.order)
-```
-![png]({{ site.url }}/assets/images/2015-04-01-wine-analysis/2015-04-01-wine-analysis_12_1.png)
-
 ## Number of tastings per person
 Some of us have been to wine club more frequently (or longer) than others, so its useful to visualize the number of datapoints we have per person.
 
@@ -280,7 +271,7 @@ plt.figure()
 ax = sns.barplot(x = np.arange(len(tastings)), y = tastings.values[::-1])
 tl = ax.set_xticklabels(tastings.index[::-1], rotation=90)
 ```
-![png]({{ site.url }}/assets/images/2015-04-01-wine-analysis/2015-04-01-wine-analysis_14_0.png)
+![png]({{ site.url }}/assets/images/2015-04-01-Wine-1-Databases/2015-04-01-Wine-1-Databases_12_0.png)
 
 ## Average score per person
 We don't want anyone to have a higher overall weight on a wines averaged score, so we'll next look on how well we each do on sticking to a consistent scoring basis. (Note, ratings from season 1 have already been re-normalized to 0-21). We're also not too interested in people who have only shown up once or twice ("Are you guys playing some sort of game?"), so we'll make the cuttoff at Zac and above (sorry Jeremy)
@@ -292,56 +283,12 @@ order = pruned_scores.groupby('Name').median().Score.argsort()
 ax = sns.boxplot(vals=pruned_scores.Score, groupby=pruned_scores.Name, order=order.index[order.values])
 tl = plt.setp(ax.get_xticklabels(), rotation=90)
 ```
-![png]({{ site.url }}/assets/images/2015-04-01-wine-analysis/2015-04-01-wine-analysis_16_0.png)
+![png]({{ site.url }}/assets/images/2015-04-01-Wine-1-Databases/2015-04-01-Wine-1-Databases_14_0.png)
 
 Easy there Luke / Kaylan, we all like wine, but not _that_ much :)
-I'm going to use a [robust z-score](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2789971/) to standardize our scores by taster.
 
 ```python
-def robust_z(x):
-    x = x.drop(['Name'], axis=1)
-    dev = x - x.median()
-    mad = np.abs(dev).median()
-    return dev / mad
 
-scores['scaled_score'] = scores.loc[:,['Name', 'Score']].groupby('Name').apply(robust_z)
-```
-
-
-```python
-scores.scaled_score.hist(bins=20, range=(-6,6))
-```
-![png]({{ site.url }}/assets/images/2015-04-01-wine-analysis/2015-04-01-wine-analysis_19_1.png)
-
-## Which are the best wines for the money?
-This requires us to find the median score of each wine
-
-```python
-medians = scores.groupby('wine').median().scaled_score
-low = medians - scores.groupby('wine').quantile(0.25).scaled_score
-high = scores.groupby('wine').quantile(0.75).scaled_score - medians
-```
-
-
-```python
-plt.plot(wines.Price, medians, '.')
-plt.gca().set_ylim([-4, 4])
-```
-
-```
-(-4, 4)
-```
-![png]({{ site.url }}/assets/images/2015-04-01-wine-analysis/2015-04-01-wine-analysis_22_1.png)
-
-
-```python
-import statsmodels.api as sm
-data = wines.loc[:,['Price', 'order']].copy()
-data = sm.add_constant(data)
-has_price = data.Price.notnull()
-rlm_model = sm.RLM(medians[has_price], data[has_price])
-results = rlm_model.fit()
-results.summary()
 ```
 <table class="table-condensed table-striped">
 <caption>Robust linear Model Regression Results</caption>
@@ -387,4 +334,4 @@ results.summary()
   <th>order</th> <td>   -0.0050</td> <td>    0.026</td> <td>   -0.190</td> <td> 0.849</td> <td>   -0.056     0.046</td>
 </tr>
 </table>
-[Download this notebook]({{ site.url }}/notebooks/2015-04-01-wine-analysis.ipynb)
+[Download this notebook]({{ site.url }}/notebooks/2015-04-01-Wine-1-Databases.ipynb)
