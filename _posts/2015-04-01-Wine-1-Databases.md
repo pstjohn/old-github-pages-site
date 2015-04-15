@@ -277,7 +277,7 @@ tl = ax.set_xticklabels(tastings.index[::-1], rotation=90)
 We don't want anyone to have a higher overall weight on a wines averaged score, so we'll next look on how well we each do on sticking to a consistent scoring basis. (Note, ratings from season 1 have already been re-normalized to 0-21). We're also not too interested in people who have only shown up once or twice ("Are you guys playing some sort of game?"), so we'll make the cuttoff at Zac and above (sorry Jeremy)
 
 ```python
-best_tasters = tastings[tastings > tastings['Zac']].index.values
+best_tasters = tastings[tastings >= tastings['Zac']].index.values
 pruned_scores = scores[scores.Name.isin(best_tasters)]
 order = pruned_scores.groupby('Name').median().Score.argsort()
 ax = sns.boxplot(vals=pruned_scores.Score, groupby=pruned_scores.Name, order=order.index[order.values])
