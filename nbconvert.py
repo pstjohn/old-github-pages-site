@@ -166,7 +166,7 @@ if __name__ == "__main__":
             CMD.write_pngs(image_dir)
             CMD.convert()
             CMD.add_preamble(CMD.title)
-            ps = '[Download this notebook]({{ site.url }}/notebooks/%s)'%(
+            ps = '\n[View this as an IPython notebook](http://nbviewer.ipython.org/url/pstjohn.github.io/notebooks/%s)'%(
                 op.basename(f))
             CMD.add_postscript(ps)
             CMD.save_markdown('_posts/%s.md'%(basename))

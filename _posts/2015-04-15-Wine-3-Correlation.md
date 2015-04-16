@@ -92,4 +92,5 @@ corrplot(scores[scores.season == 3], 'Season 3')
 ```
 ![png]({{ site.url }}/assets/images/2015-04-15-Wine-3-Correlation/2015-04-15-Wine-3-Correlation_13_0.png)
 
-[Download this notebook]({{ site.url }}/notebooks/2015-04-15-Wine-3-Correlation.ipynb)
+
+[View this as an IPython notebook](http://nbviewer.ipython.org/url/pstjohn.github.io/notebooks/2015-04-15-Wine-3-Correlation.ipynb)

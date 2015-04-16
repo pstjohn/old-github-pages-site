@@ -286,4 +286,5 @@ tl = plt.setp(ax.get_xticklabels(), rotation=90)
 ![png]({{ site.url }}/assets/images/2015-04-01-Wine-1-Databases/2015-04-01-Wine-1-Databases_14_0.png)
 
 Easy there Luke / Kaylan, we all like wine, but not _that_ much :)
-[Download this notebook]({{ site.url }}/notebooks/2015-04-01-Wine-1-Databases.ipynb)
+
+[View this as an IPython notebook](http://nbviewer.ipython.org/url/pstjohn.github.io/notebooks/2015-04-01-Wine-1-Databases.ipynb)
