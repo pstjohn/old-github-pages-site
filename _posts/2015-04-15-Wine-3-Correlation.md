@@ -44,7 +44,7 @@ def corrplot(scores, title=None, ret=False):
 
     plt.figure(figsize=(6,6))
     ax = sns.symmatplot(
-        correlations, annot=False, names=correlations.index, cmap_range=None, 
+        correlations, annot=False, names=correlations.index, cmap_range=(-1,1), 
         diag_names=False, cmap = "coolwarm")
     ax.grid(True, which='minor', linewidth=2)
     ax.patch.set_facecolor('white')
