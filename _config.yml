@@ -78,7 +78,7 @@ analytics:
 # Site Author
 author:
   name             : "Peter St. John"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/headshot.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Postdoctoral researcher at the National Renewable Energy Lab. I work on computational biology and cheminformatics."
   location         : "Golden, CO"
   email            : "peterc.stjohn@gmail.com"
@@ -94,10 +94,10 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "peterstjohn"
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "1154946/pstjohn" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
   twitter          :
@@ -105,6 +105,7 @@ author:
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  scholar          : "NdWzcVMAAAAJ"
 
 
 # Reading Files
