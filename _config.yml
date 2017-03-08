@@ -7,10 +7,9 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Armchair data science"
+title                    : "pstjohn.github.io"
 title_separator          : "-"
 name                     : "Peter St. John"
-description              : "Grab your pitchfork bifurcations"
 url                      : "https://pstjohn.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "pstjohn/pstjohn.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"

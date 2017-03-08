@@ -3,5 +3,9 @@
   }
 
 div.page__hero--overlay h1.page__title {
-  font-size: 1.8em;
+  font-size: 1.5em;
+  }
+
+#site-nav > ul.visible-links {
+  justify-content: flex-start;
   }
