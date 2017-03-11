@@ -46,7 +46,7 @@ California
 # Research Expertise
 
 * *Machine Learning*: Neural networks, preprocessing methods, hyperparameter optimization
-* *Satistics*: uncertainty analysis, bayesian methods, model selection
+* *Statistics*: uncertainty analysis, bayesian methods, model selection
 * *Optimization*: Linear programming, nonlinear programming, stochastic
 * *Nonlinear systems*: Ordinary differential equations, collocation methods, sensitivity analysis
 
