@@ -62,7 +62,11 @@ California
 
 ## Journal articles
 
-**St. John, P.C.**, Crowley, M.F., Bomble, Y.J., Efficient estimation of the maximum metabolic productivity of batch systems (2016) *Biotechnology for Biofuels*. (in press) [ arXiv:1610.01114](https://arxiv.org/abs/1610.01114)
+Guarnieri, MA, Chou, YC, Salvachúa, D, Mohagheghi, Ali, **St. John, P.C.,** Peterson, DJ, Bomble, YJ, and GT Beckham. Metabolic engineering of Actinobacillus succinogenes provides insights into succinic acid biosynthesis (2017), *Applied and Environmental Microbiology*, *in review*.
+
+**St. John, P. C.**, Kairys, P., Das, D. D., McEnally, C. S., Pfefferle, L. D., Robichaud, D. J., Nimlos, M. R., Zigler, B. T., McCormick, R. L., Foust,  T. D., Bomble, Y. K, and S. Kim (2017) A quantitative model for the prediction of sooting tendency from molecular structure. *Energy and Fuels*, *in review*.
+
+**St. John, P. C.**, Crowley, M. F., & Bomble, Y. J. (2017). Efficient estimation of the maximum metabolic productivity of batch systems. *Biotechnology for Biofuels*, 10(1). [doi:10.1186/s13068-017-0709-0](https://dx.doi.org/10.1186/s13068-017-0709-0)
 
 Salvachúa D., Smith, H., **St. John, P.C.**, Mohagheghi, A., Peterson, D.J., Black, B.A., Dowe, N., and G.T. Beckham. Succinic acid production from lignocellulosic hydrolysate by Basfia succiniciproducens (2016) *Bioresource Technology*, (214) pp. 558-566. [10.1016/j.biortech.2016.05.018](http://dx.doi.org/10.1016/j.biortech.2016.05.018)
 
@@ -85,6 +89,10 @@ Murphy, A.M., **St. John, P.C.**, and D.L. Kaplan. Modification of silk fibroin
 ## Book Chapters
 
 Yang R., Rodriguez-Fernandez, M., **St. John, P.C.**, and F.J. Doyle III. Systems Biology (2014) in *Modelling Methodology for Physiology and Medicine (Second Edition)*  Elsevier, Oxford, p. 159-187.
+
+## Peer-reviewed Conference Proceedings
+
+**St. John, P.C.**, Crowley, M.F., and Y.J. Bomble. Estimation of the Maximum Theoretical Productivity of Fed-Batch Bioreactors. To be presented at the 20th IFAC World Congress, July 2017.
 
 # Presentations
 
@@ -115,7 +123,7 @@ helped in grading student reports.
 # Community Involvement
 
 **Peer Review, January 2014-present**\
-Reviewer for PNAS; Biophysical Journal; Journal of Biological Rhythms; IEEE Control Systems Society Conference; 21st International Symposium on Mathematical Theory of Networks and Systems
+Reviewer for PNAS; Biophysical Journal; Journal of Biological Rhythms; IEEE Control Systems Society Conference; 21st International Symposium on Mathematical Theory of Networks and Systems, 2017 Internal Combustion Engine Fall Technical Conference
 
 **Scienceline “Ask A Scientist"**\
 Answers science and engineering questions posed by students and teachers from local K-12 schools.\
@@ -137,3 +145,4 @@ Andrew Barisser, Rotation Student, BMSE UCSB
 | *Website*: <http://www.nrel.gov/bioenergy/bios/peter-stjohn.html>
 | *Google Scholar*: <https://scholar.google.com/citations?user=NdWzcVMAAAAJ>
 | *Github*: <https://github.com/pstjohn>
+
